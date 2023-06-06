@@ -13,27 +13,27 @@ void mathing(int switching)
     switch(switching)
     {
         case 1:
-        for (int i = 1; i < vl2; i++)
+        for (int i = 1; i < vl2+1; i++)
         {
-        Console.WriteLine($"{vl} + {vl*i} = {vl+(vl*i)}");        
+        Console.WriteLine($"{vl} + {i} = {vl+i}");        
         }
         break;
         case 2:
-        for (int i = 1; i < vl2; i++)
+        for (int i = 1; i < vl2+1; i++)
         {
-        Console.WriteLine($"{vl} - {vl*i} = {vl-(vl*i)}");        
+        Console.WriteLine($"{vl} - {i} = {vl-i}");        
         }
         break;
         case 3:
-        for (int i = 1; i < vl2; i++)
+        for (int i = 1; i < vl2+1; i++)
         {
-        Console.WriteLine($"{vl} x {vl*i} = {vl*(vl*i)}");        
+        Console.WriteLine($"{vl} x {i} = {vl*i}");        
         }
         break;
         case 4:
-        for (int i = 1; i < vl2; i++)
+        for (int i = 1; i < vl2+1; i++)
         {
-        Console.WriteLine($"{vl} / {vl*i} = {vl/(vl*i)}");        
+        Console.WriteLine($"{vl} / {i} = {vl/i}");        
         }
         break;
         default:
